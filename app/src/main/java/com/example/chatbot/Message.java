@@ -4,6 +4,8 @@ public class Message {
     private final String text;
     private final boolean usersentMessage;
 
+    //basically to handle the text
+
     public Message(String text, boolean usersentMessage) {
         this.text = text;
         this.usersentMessage = usersentMessage;

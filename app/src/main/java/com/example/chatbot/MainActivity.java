@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         joke = new ResponseGenerator();
 
+        //to trigger the reply after clicking on send button
         buttonSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -9,6 +9,8 @@ public class ResponseGenerator {
     private final List<String> jokes;
     private final Random random;
 
+    //the jokes
+
     public ResponseGenerator() {
         jokes = new ArrayList<>();
         jokes.add("Why don't scientists trust atoms? Because they make up everything!");

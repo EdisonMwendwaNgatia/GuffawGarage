@@ -40,7 +40,8 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:hint="@string/type_a_message"
-            android:textColorHint="@color/white"/>
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button"
